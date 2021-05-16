@@ -1,6 +1,6 @@
 {
   "name": "js-loader-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Loader Library",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/dheerajDK92/js-loader.git"
   },
+  "keywords": [
+    "JavaScript",
+    "Loader",
+    "Custom CSS Loader"
+  ],
   "author": "Dheeraj Kumar",
   "license": "ISC",
   "bugs": {
