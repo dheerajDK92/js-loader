@@ -1,3 +1,24 @@
+/**
+ *
+ * @param {*} param to check type of param
+ * @returns boolean
+ */
+const hasParam = (param) => {
+  return typeof param !== "undefined";
+};
+/**
+ *
+ * @param {*} value can be any type and it will check if that value is Null/Undefined
+ * @returns boolean
+ */
+const isNullOrUndefined = (value) => {
+  return value === null || value === undefined;
+};
+/**
+ *
+ * @param {fullPage} fullPage: optional - if want to show full page loader
+ * @param {loaderTitle} loaderTitle: optional - by default value `Loading` or you can pass text using this param
+ */
 const showLoader = (options) => {
   let localOptions = {
     fullPage: true,
@@ -71,14 +92,9 @@ const showLoader = (options) => {
     document.body.appendChild(loaderDiv);
   }
 };
-
-const hasParam = (param) => {
-  return typeof param !== "undefined";
-};
-const isNullOrUndefined = (value) => {
-  return value === null || value === undefined;
-};
-
+/**
+ * hideLoader : will remove the loader from document
+ */
 const hideLoader = () => {
   if (document) {
     let loaderElem = document.getElementById("dk-js-loader");

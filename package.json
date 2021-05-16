@@ -1,5 +1,5 @@
 {
-  "name": "js-loader",
+  "name": "js_loader",
   "version": "1.0.0",
   "description": "Javascript Loader Library",
   "main": "index.js",
