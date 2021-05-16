@@ -23,3 +23,5 @@ showLoader : attach the full page loader to web site.
 import { hideLoader }  from "js_loader";
 hideLoader(); // hide full page loader;
 ```
+
+##### Thank you. Please provide us your feedback at `dheerajatoria@gmail.com`.
